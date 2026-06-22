@@ -1,0 +1,120 @@
+# 📊 Financial Performance Dashboard
+
+## 📌 Project Overview
+
+This project focuses on analyzing financial performance across different countries, products, discount bands, and time periods using Microsoft Power BI.
+
+The objective is to transform raw financial data into meaningful insights through data cleaning, KPI development, DAX calculations, and interactive dashboard visualization.
+
+## 🎯 Project Objectives
+
+* Analyze financial performance across countries, products, and segments
+* Evaluate profitability using key financial metrics
+* Monitor sales and profit trends over time
+* Analyze the impact of discounts on sales performance
+* Generate a comprehensive financial dashboard with interactive visualizations
+
+## 📌 Problem Statement
+
+Given a financial dataset containing sales, profit, discounts, products, countries, segments, and time-based information, the task is to analyze overall financial performance using business intelligence techniques.
+
+The analysis includes:
+
+* Comparing Sales and Profit across countries
+* Tracking Sales and Profit trends over time
+* Evaluating the relationship between Gross Sales and Discounts
+* Analyzing Sales performance across Discount Bands
+* Monitoring key financial KPIs such as Revenue, Profit Margin, and COGS to Sales Ratio
+
+## 📁 Dataset Information
+
+The dataset contains:
+
+* Segment
+* Country
+* Product
+* Discount Band
+* Units Sold
+* Manufacturing Price
+* Sale Price
+* Gross Sales
+* Discounts
+* Sales
+* COGS
+* Profit
+* Date
+* Month Number
+* Month Name
+* Year
+
+## 🛠 Tools & Technologies Used
+
+* Microsoft Power BI
+* Power Query (Data Cleaning & Transformation)
+* DAX (Data Analysis Expressions)
+* KPI Cards & Interactive Visualizations
+
+## 🧹 Data Cleaning & Transformation
+
+* Removed currency symbols ($)
+* Removed commas from numeric values
+* Replaced (-) values where applicable
+* Cleaned Discount and Profit columns
+* Corrected Date formatting
+* Changed Month Number and Year to Whole Number
+* Converted financial columns to Decimal Number
+* Validated data quality and transformation errors
+
+**Note:** The source dataset includes separate Date, Month Number, Month Name, and Year columns. Monthly analysis was conducted based on the Month Name and Year fields according to the dataset structure.
+
+## 🧮 DAX Measures Created
+
+* Total Revenue
+* Total Profit
+* Total Discounts
+* Profit Margin
+* COGS to Sales Ratio
+
+## 📊 Key KPIs Developed
+
+| KPI                    | Value  |
+| ---------------------- | ------ |
+| 💰 Total Revenue       | 128M   |
+| 📈 Total Profit        | 17M    |
+| 📊 Profit Margin       | 14.23% |
+| 💼 COGS to Sales Ratio | 85.77% |
+
+## 📈 Dashboard Features
+
+* Sales and Profit by Country
+* Sales and Profit Trend Over Time
+* Gross Sales vs Discounts Analysis
+* Product Performance by Discount Band
+* Interactive slicers for Date, Country, Segment, and Discount Band
+* KPI cards for financial performance monitoring
+
+## 📌 Key Insights
+
+* 🇺🇸 United States generated the highest sales revenue among the selected countries
+* 📈 Sales remained significantly higher than profit across all countries
+* 📊 Profit trends generally followed sales trends over time
+* 🔗 The scatter plot provided insights into the relationship between Gross Sales and Discounts across countries.
+* 🛒 Product performance varied across discount bands
+* 🎯 Interactive filtering enables dynamic financial analysis
+
+## 🚀 Learning Outcomes
+
+* Applied Power Query for data cleaning and transformation
+* Created DAX measures for financial KPI calculations
+* Built an interactive Power BI dashboard
+* Implemented slicers and cross-filtering functionality
+* Performed financial performance analysis using business metrics
+* Improved dashboard design and analytical storytelling skills
+
+## 📌 Conclusion
+
+This project demonstrates the practical application of Power BI in financial performance analysis. The dashboard provides valuable insights into sales, profitability, discounts, and business performance, enabling better data-driven decision-making.
+
+## 📷 Dashboard Preview
+
+![Financial Performance Dashboard](Financial_Performance_Dashboard_preview.png)
