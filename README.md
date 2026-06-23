@@ -8,11 +8,9 @@ The objective is to transform raw financial data into meaningful insights throug
 
 ## 🎯 Project Objectives
 
-* Analyze financial performance across countries, products, and segments
-* Evaluate profitability using key financial metrics
-* Monitor sales and profit trends over time
-* Analyze the impact of discounts on sales performance
-* Generate a comprehensive financial dashboard with interactive visualizations
+The goal of this Power BI project is to analyze financial performance across different countries, products, and time periods using key financial metrics such as Sales, Profit, Cost of Goods Sold (COGS), Gross Sales, and Discounts.
+
+The dashboard helps evaluate profitability, identify trends, compare performance across countries, and generate meaningful business insights through interactive visualizations.
 
 ## 📌 Problem Statement
 
@@ -86,16 +84,25 @@ The dataset contains:
 
 ## 📈 Dashboard Features
 
-* Sales and Profit by Country
-* Sales and Profit Trend Over Time
-* Gross Sales vs Discounts Analysis
-* Product Performance by Discount Band
-* Interactive slicers for Date, Country, Segment, and Discount Band
-* KPI cards for financial performance monitoring
+📊 Sales and Profit by Country
+* Compared financial performance across different countries.
+* Visualization Used: Clustered Bar Chart
+📈 Sales and Profit Trend Over Time
+* Analyzed sales and profit trends across different time periods.
+* Visualization Used: Line Chart
+🔵 Gross Sales vs Discounts Analysis
+* Examined the relationship between Gross Sales and Discounts across countries.
+* Visualization Used: Scatter Plot
+📋 Sales by Product and Discount Band
+* Analyzed product performance across different discount bands.
+* Visualization Used: Matrix Table
+🎛 Interactive Analysis
+* Added slicers for Date, Country, Segment, and Discount Band.
+* Enabled cross-filtering across visuals for dynamic analysis.
 
 ## 📌 Key Insights
 
-* 🇺🇸 United States generated the highest sales revenue among the selected countries
+* 🌎 United States generated the highest sales revenue among the selected countries
 * 📈 Sales remained significantly higher than profit across all countries
 * 📊 Profit trends generally followed sales trends over time
 * 🔗 The scatter plot provided insights into the relationship between Gross Sales and Discounts across countries.
