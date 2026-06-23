@@ -84,19 +84,28 @@ The dataset contains:
 
 ## 📈 Dashboard Features
 
-📊 Sales and Profit by Country
+### 📊 Sales and Profit by Country
+
 * Compared financial performance across different countries.
 * Visualization Used: Clustered Bar Chart
-📈 Sales and Profit Trend Over Time
+  
+### 📈 Sales and Profit Trend Over Time
+
 * Analyzed sales and profit trends across different time periods.
 * Visualization Used: Line Chart
-🔵 Gross Sales vs Discounts Analysis
+  
+### 🔵 Gross Sales vs Discounts Analysis
+
 * Examined the relationship between Gross Sales and Discounts across countries.
 * Visualization Used: Scatter Plot
-📋 Sales by Product and Discount Band
+  
+### 📋 Sales by Product and Discount Band
+
 * Analyzed product performance across different discount bands.
 * Visualization Used: Matrix Table
-🎛 Interactive Analysis
+  
+### 🎛 Interactive Analysis
+
 * Added slicers for Date, Country, Segment, and Discount Band.
 * Enabled cross-filtering across visuals for dynamic analysis.
 
