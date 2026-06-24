@@ -111,12 +111,13 @@ The dataset contains:
 
 ## 📌 Key Insights
 
-* 🌎 United States generated the highest sales revenue among the selected countries
-* 📈 Sales remained significantly higher than profit across all countries
-* 📊 Profit trends generally followed sales trends over time
+* 🌎 United States generated the highest sales revenue among the selected countries.
+* 💰 France achieved the highest profit performance among the selected countries.
+* 📈 Sales remained significantly higher than profit across all countries.
+* 📊 Profit trends generally followed sales trends over time.
 * 🔗 The scatter plot provided insights into the relationship between Gross Sales and Discounts across countries.
-* 🛒 Product performance varied across discount bands
-* 🎯 Interactive filtering enables dynamic financial analysis
+* 🛒 Product performance varied across discount bands.
+* 🎯 Interactive filtering enables dynamic financial analysis.
 
 ## 🚀 Learning Outcomes
 
