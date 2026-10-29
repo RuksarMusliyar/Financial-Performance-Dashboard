@@ -67,11 +67,13 @@ The dataset contains:
 
 ## 🧮 DAX Measures Created
 
-* Total Revenue
-* Total Profit
-* Total Discounts
-* Profit Margin
-* COGS to Sales Ratio
+The following DAX measures were created in Power BI to calculate key financial performance indicators.
+
+* **Total Revenue:** `Total Revenue = SUM(Financial_data[Gross Sales])`
+* **Total Profit:** `Total Profit = SUM(Financial_data[Profit])`
+* **Total Discounts:** `Total Discounts = SUM(Financial_data[Discounts])`
+* **Profit Margin:** `Profit Margin = DIVIDE(SUM(Financial_data[Profit]), SUM(Financial_data[Sales]), 0)`
+* **COGS to Sales Ratio:** `COGS to Sales = DIVIDE(SUM(Financial_data[COGS]), SUM(Financial_data[Sales]), 0)`
 
 ## 📊 Key KPIs Developed
 
