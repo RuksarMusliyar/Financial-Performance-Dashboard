@@ -70,6 +70,10 @@ The dataset contains:
 The following DAX measures were created in Power BI to calculate key financial performance indicators.
 
 * **Total Revenue:** `Total Revenue = SUM(Financial_data[Gross Sales])`
+**Calculation:** The `SUM()` function adds the values in the Gross Sales column to calculate total gross sales.
+
+**Business Meaning:** This measure shows the total value of sales before discounts. It helps monitor the overall gross sales performance of the business.
+
 * **Total Profit:** `Total Profit = SUM(Financial_data[Profit])`
 * **Total Discounts:** `Total Discounts = SUM(Financial_data[Discounts])`
 * **Profit Margin:** `Profit Margin = DIVIDE(SUM(Financial_data[Profit]), SUM(Financial_data[Sales]), 0)`
