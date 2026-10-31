@@ -63,7 +63,7 @@ The dataset contains:
 * Converted financial columns to Decimal Number
 * Validated data quality and transformation errors
 
-**Note:** The source dataset includes separate Date, Month Number, Month Name, and Year columns. Monthly analysis was conducted based on the Month Name and Year fields according to the dataset structure.
+**Note:** The source dataset contains a Date column whose displayed month does not always match the separate Month Number and Month Name fields. For example, the Date column displays **06 January 2014**, whereas the Month Number and Month Name columns identify the period as **June 2014**. Therefore, monthly trend analysis was performed using the Month Name and Year columns to ensure the correct month-wise representation.
 
 ## 🧮 DAX Measures Created
 
