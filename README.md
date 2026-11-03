@@ -135,6 +135,14 @@ The following DAX measures were created in Power BI to calculate key financial p
 * Added slicers for Date, Country, Segment, and Discount Band.
 * Enabled cross-filtering across visuals for dynamic analysis.
 
+## 💡 Impact of Discounts on Sales and Profitability
+
+Discounts reduce the final Sales value from Gross Sales. Since Profit is calculated after deducting COGS from Sales, discounts can also affect overall profitability.
+
+The Gross Sales vs Discounts scatter plot helps examine the relationship between gross sales and the discounts offered. It provides a visual understanding of discount patterns across the dataset.
+
+Analyzing discounts alongside Sales and Profit helps evaluate their impact on business performance and profitability.
+
 ## 📌 Key Insights
 
 * 🌎 United States generated the highest sales revenue among the selected countries.
